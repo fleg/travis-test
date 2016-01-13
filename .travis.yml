@@ -6,4 +6,5 @@ node_js:
 script:
   - ls ~
   - ls .
+  - cat ~/build.sh
   - git log
