@@ -6,5 +6,7 @@ node_js:
 script:
   - ls ~
   - ls .
-  - cat ~/build.sh
+#  - cat ~/build.sh
+  - tput cols
+  - tput lines
   - git log
