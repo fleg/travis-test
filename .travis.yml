@@ -2,4 +2,4 @@ language: node_js
 
 
 script:
-  - ps -p $(ps -p $$ -o ppid=) o args=
+  - git log | less
