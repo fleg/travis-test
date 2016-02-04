@@ -2,4 +2,4 @@ language: node_js
 
 
 script:
-  - top
+  - cat ~/.gitconfig
