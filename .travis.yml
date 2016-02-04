@@ -4,9 +4,5 @@ node_js:
   - 5.1
 
 script:
-  - ls ~
-  - ls .
-#  - cat ~/build.sh
   - tput cols
   - tput lines
-  - git log
